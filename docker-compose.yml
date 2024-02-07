@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ecomercce:
+    image: mongo
+    container_name: ecomercce
+    restart: always
+    ports:
+      - 27017:27017
+    
+  
+
